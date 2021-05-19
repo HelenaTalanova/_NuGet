@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRC", "CRC8\CRC.csproj", "{4994C757-EA2B-4AE3-A0FE-0ECE282B8BF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCRC", "TestCrc8\TestCRC.csproj", "{1B310751-BAAB-4D71-B482-93BBA52CB938}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestCRC", "TestCRC\TestCRC.csproj", "{CC0475AB-BEA9-4CD3-BED1-E2FC8BB16131}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{4994C757-EA2B-4AE3-A0FE-0ECE282B8BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4994C757-EA2B-4AE3-A0FE-0ECE282B8BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4994C757-EA2B-4AE3-A0FE-0ECE282B8BF7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1B310751-BAAB-4D71-B482-93BBA52CB938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B310751-BAAB-4D71-B482-93BBA52CB938}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1B310751-BAAB-4D71-B482-93BBA52CB938}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1B310751-BAAB-4D71-B482-93BBA52CB938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0475AB-BEA9-4CD3-BED1-E2FC8BB16131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0475AB-BEA9-4CD3-BED1-E2FC8BB16131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0475AB-BEA9-4CD3-BED1-E2FC8BB16131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0475AB-BEA9-4CD3-BED1-E2FC8BB16131}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

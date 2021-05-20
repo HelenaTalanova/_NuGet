@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRC", "CRC8\CRC.csproj", "{4994C757-EA2B-4AE3-A0FE-0ECE282B8BF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRC.Test", "CRC.Test\CRC.Test.csproj", "{4DA2CE5E-5820-49D1-BF5F-19446746ABA8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestCRC", "TestCRC\TestCRC.csproj", "{CC0475AB-BEA9-4CD3-BED1-E2FC8BB16131}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRC", "CRC\CRC.csproj", "{4994C757-EA2B-4AE3-A0FE-0ECE282B8BF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DA2CE5E-5820-49D1-BF5F-19446746ABA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA2CE5E-5820-49D1-BF5F-19446746ABA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA2CE5E-5820-49D1-BF5F-19446746ABA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA2CE5E-5820-49D1-BF5F-19446746ABA8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4994C757-EA2B-4AE3-A0FE-0ECE282B8BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4994C757-EA2B-4AE3-A0FE-0ECE282B8BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4994C757-EA2B-4AE3-A0FE-0ECE282B8BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4994C757-EA2B-4AE3-A0FE-0ECE282B8BF7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC0475AB-BEA9-4CD3-BED1-E2FC8BB16131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC0475AB-BEA9-4CD3-BED1-E2FC8BB16131}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC0475AB-BEA9-4CD3-BED1-E2FC8BB16131}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC0475AB-BEA9-4CD3-BED1-E2FC8BB16131}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

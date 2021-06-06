@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace CRC
 {
-    interface ICrcAlgorithm<ValueType> where ValueType:struct
+    public interface ICrcAlgorithm<ValueType> where ValueType : struct
     {
         /// <summary>
         /// Получить CRC для всех елементов

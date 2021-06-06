@@ -9,7 +9,7 @@ namespace CRC.Test.Units
     {
         private Random random = new Random();
         private List<byte> TestingData => Enumerable
-            .Range(0, random.Next(0, 1000))
+            .Range(0, random.Next(2, 100))
             .Select(i => (byte)random.Next())
             .ToList();
 
@@ -85,7 +85,7 @@ namespace CRC.Test.Units
             Assert.Throws<ArgumentOutOfRangeException>(() => crc.Get(data, size, 0));
 
             Assert.Throws<ArgumentOutOfRangeException>(() => crc.Get(data, 0, -1));
-            Assert.Throws<ArgumentOutOfRangeException>(() => crc.Get(data, 0, size));
+            Assert.Throws<ArgumentOutOfRangeException>(() => crc.Get(data, 0, size + 1));
         }
 
         [Fact]
@@ -100,7 +100,7 @@ namespace CRC.Test.Units
             Assert.Throws<ArgumentOutOfRangeException>(() => crc.Verify(data, size, 0));
 
             Assert.Throws<ArgumentOutOfRangeException>(() => crc.Verify(data, 0, -1));
-            Assert.Throws<ArgumentOutOfRangeException>(() => crc.Verify(data, 0, size));
+            Assert.Throws<ArgumentOutOfRangeException>(() => crc.Verify(data, 0, size + 1));
         }
 
         [Fact]
@@ -135,13 +135,13 @@ namespace CRC.Test.Units
 
             Assert.True(crcValue == crc.Get(data));
             Assert.True(crcValue == crc.Get(data, 0));
-            Assert.True(crcValue == crc.Get(data, 0, data.Count - 1));
+            Assert.True(crcValue == crc.Get(data, 0, data.Count));
 
             data = TestingData;
 
-            Assert.False(crcValue == crc.Get(TestingData));
-            Assert.False(crcValue == crc.Get(TestingData, 0));
-            Assert.False(crcValue == crc.Get(TestingData, 0, data.Count - 1));
+            Assert.False(crcValue == crc.Get(data));
+            Assert.False(crcValue == crc.Get(data, 0));
+            Assert.False(crcValue == crc.Get(data, 0, data.Count));
         }
 
         [Fact]
